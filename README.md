@@ -24,7 +24,7 @@ log.config.file=log4j.properties
 
 Build jar command
 ---------------
-*Plese install gradle download from https://gradle.org/
+*Please install gradle download from https://gradle.org/
 
 Shell
 ```sh
