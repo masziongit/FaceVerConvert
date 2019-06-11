@@ -88,6 +88,8 @@ public class GenImgByData {
                             bis.close();
 
                             ImageIO.write(image, FilenameUtils.getExtension(imgData.getName()), imgData);
+                        }else {
+                            throw new Exception();
                         }
 
                     } catch (Exception e) {
